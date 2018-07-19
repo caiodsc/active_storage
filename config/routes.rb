@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :records
   #get 'file_uploads/new'
   resources :buckets
   resources :posts
